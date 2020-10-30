@@ -1,0 +1,55 @@
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.flex-card {
+    border: 1px solid grey;
+    width: auto;
+    margin: 30px;
+}
+.flex-icon {
+    border: 1px solid grey;
+    display: block;
+    height: 100px;
+    text-align: center;
+    padding: 5px;
+}
+
+img {
+    border: 1px solid grey;
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.flex-item {
+    display: flex;
+    flex-direction: column;
+
+}
+h2 {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 13px;
+    color: #76ba8d;
+    
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 8px;
+}
+code {
+    font-family: 'Fira Mono', monospace;
+}
+
+@media screen and (min-width:480px) {
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+    }
+}
