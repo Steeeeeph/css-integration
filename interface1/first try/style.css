@@ -1,0 +1,42 @@
+.grid-container {
+
+    display: grid;
+    grid-template-columns: 113px  113px 113px 113px;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    margin-top: 30px;
+    grid-gap: 20px;
+}
+.grid-icon {
+    display: block;
+    height: inherit;
+    text-align: center;
+    grid-row-start: 1;
+}
+.grid-item {
+    grid-row-start: 2;
+}
+img {
+    border: 1px solid grey;
+    display: block;
+    max-height: 60px;
+    max-width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+h2 {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 13px;
+    color: #76ba8d;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 8px;
+}
+code {
+    font-family: 'Fira Mono', monospace;
+}
+

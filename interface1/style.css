@@ -1,0 +1,71 @@
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+.flex-card {
+    width: auto;
+    margin: 15px;
+}
+.flex-icon {
+    display: flex;
+    height: 90px;
+    padding: 5px 0 5px 0;
+    align-items: center;
+}
+
+img {
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#grunt {
+    width: 55px;
+    height: auto;
+}
+#gulp {
+    width: 90px;
+    height: auto;
+}
+#gitcat {
+    width: 85px;
+    height: auto;
+}
+#npm {
+    width: 75px;
+    height: auto;
+}
+
+.flex-item {
+    display: block;
+    width: 113px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 13px;
+    color: #76ba8d;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 8px;
+}
+code {
+    font-family: 'Fira Mono', monospace;
+}
+
+@media screen and (min-width:480px) {
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        justify-content: center;
+    }
+    .flex-card {
+        width: 25%;
+        margin: auto;
+    }
+}
