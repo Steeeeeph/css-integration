@@ -2,8 +2,8 @@
 ##  What?
 I've created two different interfaces, keeping in mind these have to be 'pixel perfect' to the given wireframes in the exercise my coach gave me:
 
-+ [Interface 1](.../css-integration/interface1/index.html)
-+ [Interface 2](.../css-integration/interface2/index.html)
++ [Interface 1](https://steeeeeph.github.io/css-integration/interface1/index.html)
++ [Interface 2](https://steeeeeph.github.io/css-integration/interface2/index.html)
 
 Since no points were given for working with SCSS or frameworks, I did both Interfaces in classic HTML and CSS.
 
