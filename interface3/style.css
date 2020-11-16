@@ -1,4 +1,4 @@
-.mockUp {
+/* .mockUp {
 width: 496px;
 height: 265px;
 position: absolute;
@@ -8,7 +8,7 @@ left: 0;
 opacity: 0.5;
 z-index: 10;
 pointer-events: none;
-}
+} */
 
 .container {
     width: calc(493px - 5px);
@@ -34,16 +34,17 @@ pointer-events: none;
     grid-template-rows: auto 62px;
 }
 .main-text {
-    margin: 20px 10px auto 19px;
+    margin: 19px 10px auto 20px;
     grid-row: 1;
 }
 .main-text h1 {
     font-family: 'Noto Sans JP', sans-serif;
-    font-size: 17.5px;
+    font-size: 18.5px;
     margin: 0;
-    line-height: 1.35em;
-    letter-spacing: -0.1px;
-    word-spacing: 1px;
+    line-height: 1.30em;
+    font-stretch: ultra-condensed;
+    letter-spacing: -0.5px;
+    /* word-spacing: 1px; */
     font-weight: 700;
 }
 
@@ -57,8 +58,8 @@ pointer-events: none;
     word-spacing: 1px;
     font-weight: 400;
 }
-h1::first-line, p::first-line {
-    text-indent:25px;
+h1:first-line {
+    text-indent: 25px;
 }
 
 .credentials {
@@ -96,9 +97,11 @@ h6 {
 }
 .far {
     font-size: 18px;
+    color: #909090;
     margin: 15px 0 auto 6px;
 }
 .fas {
     font-size: 12px;
+    color: #909090;
     margin: 17px auto auto 8px;
 }
