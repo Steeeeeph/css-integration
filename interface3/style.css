@@ -12,8 +12,8 @@ pointer-events: none;
 
 .container {
     width: calc(493px - 5px);
-    height: calc(262px - 5px);
-    border: 0.5px solid grey;
+    height: calc(262px - 4px);
+    border: 0.5px solid #909090;
     position: absolute;
     top: 0;
     left: 0;
@@ -21,13 +21,21 @@ pointer-events: none;
     grid-template-columns: 200px auto;
     margin: 2.5px;
 }
-
+.column1 {
+    grid-column: 1;
+}
 .main-image {
     width: 200px;
     height:258px;
 }
+.column2 {
+    grid-column: 2;
+    display: grid;
+    grid-template-rows: auto 62px;
+}
 .main-text {
-    margin: 20px 10px auto 20.5px;
+    margin: 20px 10px auto 19px;
+    grid-row: 1;
 }
 .main-text h1 {
     font-family: 'Noto Sans JP', sans-serif;
@@ -38,10 +46,59 @@ pointer-events: none;
     word-spacing: 1px;
     font-weight: 700;
 }
+
 .main-text p{
     font-family: 'Roboto', sans-serif;
+    color: #909090;
     font-size: 14px;
     margin-top: 7px;
     line-height: 1.35em;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.3px;
+    word-spacing: 1px;
+    font-weight: 400;
+}
+h1::first-line, p::first-line {
+    text-indent:25px;
+}
+
+.credentials {
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 62px auto 62px;
+}
+.portrait {
+    grid-column: 1;
+}
+img{
+float: right;
+}
+.name {
+    grid-column: 2;
+}
+.name, h5, h6 {
+    margin: 0 auto auto 3.5px;
+}
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin-top: 6px;
+}
+h6 {
+    font-family: 'Roboto', sans-serif;
+    color: #909090;
+    font-size: 12px;
+    margin-top: 3px;
+    letter-spacing: 0.03px;
+}
+.toggle {
+    display: flex;
+    align-items: center;
+}
+.far {
+    font-size: 18px;
+    margin: 15px 0 auto 6px;
+}
+.fas {
+    font-size: 12px;
+    margin: 17px auto auto 8px;
 }
